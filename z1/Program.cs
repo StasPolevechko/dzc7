@@ -12,7 +12,7 @@ int Prompt(string message)
     return result;
 }
 
-// Объявляем двумерный массив
+
 int[,] InputArray(int line, int column)
 {
     int[,] array = new int[line, column];

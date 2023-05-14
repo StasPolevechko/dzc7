@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Slomali.by\\Desktop\\стас\\dzc7\\z1\\z1.csproj": {}
+    "C:\\Users\\Гурман\\Desktop\\учеба\\dzc7\\z1\\z1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Slomali.by\\Desktop\\стас\\dzc7\\z1\\z1.csproj": {
+    "C:\\Users\\Гурман\\Desktop\\учеба\\dzc7\\z1\\z1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Slomali.by\\Desktop\\стас\\dzc7\\z1\\z1.csproj",
+        "projectUniqueName": "C:\\Users\\Гурман\\Desktop\\учеба\\dzc7\\z1\\z1.csproj",
         "projectName": "z1",
-        "projectPath": "C:\\Users\\Slomali.by\\Desktop\\стас\\dzc7\\z1\\z1.csproj",
-        "packagesPath": "C:\\Users\\Slomali.by\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Slomali.by\\Desktop\\стас\\dzc7\\z1\\obj\\",
+        "projectPath": "C:\\Users\\Гурман\\Desktop\\учеба\\dzc7\\z1\\z1.csproj",
+        "packagesPath": "C:\\Users\\Гурман\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Гурман\\Desktop\\учеба\\dzc7\\z1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Slomali.by\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Гурман\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

@@ -13,7 +13,7 @@ int Prompt(string message)
 }
 
 
-int[,] InputArray(int line, int column)
+int[,] InputArray(int line, int column, int minValue, int maxValue)
 {
     int[,] array = new int[line, column];
 
@@ -23,7 +23,7 @@ int[,] InputArray(int line, int column)
     {
         for (int j = 0; j < column; j++)
         {
-            array[i, j] = ran.Next(1, 15);
+            array[i, j] = ran.Next(minValue, maxValue);
             Console.Write("{0}\t", array[i, j]);
         }
         Console.WriteLine();
@@ -32,7 +32,10 @@ int[,] InputArray(int line, int column)
 }
 
 
+
 int line = Prompt("количество строк в массиве: ");
 int column = Prompt("количество столбцов в массиве: ");
+int min = Prompt("минимальное значение массива: ");
+int max = Prompt("максимальное значение массива: ");
 int[,] array;
-array = InputArray(line, column);
+array = InputArray(line, column, min, max);
